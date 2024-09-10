@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="header-container">
+      <header>
+        <div class="logo">
+          <a href="#">JEAN-MICHEL</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home" onclick="selectioner()">Home</a></li>
+            <li><a href="#about" onclick="selectioner()">About</a></li>
+            <li><a href="#competances" onclick="selectioner()">Compétances</a></li>
+            <li><a href="#cv" onclick="selectioner()">CV</a></li>
+            <li><a href="#portfolio" onclick="selectioner()">Portfolio</a></li>
+            <li><a href="#contact" onclick="selectioner()">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="afficherMasquerMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECTION HOME -->
+    <section id="home" class="home">
+      <div class="banner-content">
+        <div class="img-container">
+          <img src="img/Perfil-02.png" alt="">
+          <h1>JEAN MICHEL CONTI</h1>
+          <h2>Téch. d'Installation de Télécomunications</h2>
+          <div class="reseaux">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section id="about" class="about">
+      <div class="section-content">
+        <h2>Auprès de moi</h2>
+        <p><span>Bonjour, je suis Jean-Michel Conti.</span> Téchnicien en d'Installation de Télécomunications, en Impression en Arts Graphiques et en Préimpression Númerique. J'aime beaucoup voyager, la photographie, lire, jouer de la guitar, écouter de la musique, faire des randonnées et aussi faire du vélo comme sports.
+        </p>
+        
+        <p>J'aime aussi beaucoup la téchnologie, grace a mes étude en Installations de Télécommunications j'ai des connaissance en en informatique en ce qui est la maintenance informatique, instalations de S.O., etc...
+        <br>
+        Actuellement, je forme audidactement en Développement Web parce-que je suis très intéressé en ce domaine qui a beaucoup de future et je cherche a accroîtrex mes connaissances.</p>
+
+        <div class="rangee">
+          <!-- données personnelles -->
+          <div class="col">
+            <h3>Données personnelles</h3>
+            <ul>
+              <li>
+                <strong>Date de naissance</strong>
+                30 Abril 1990
+              </li>
+              <li>
+                <strong>Portable</strong>
+                06 58 54 29 52
+              </li>
+              <li>
+                <strong>Email</strong>
+                jean-michelconti@hotmail.com
+              </li>
+              <li>
+                <strong>Adresse</strong>
+                77 Rue Marsale, 01380 - Bâgé-le-Châtel
+              </li>
+              <li>
+                <strong>Poste</strong>
+                <span>Téchnicien</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Intérêts -->
+          <div class="col">
+            <h3>Intérêts</h3>
+            <div class="interets-container">
+              
+              <div class="interets">
+                <i class="fa-solid fa-headphones"></i>
+                
+                <span>MUSIQUE</span>
+              </div>
+              
+              <div class="interets">
+                <i class="fa-solid fa-guitar"></i>
+                <span>GUITAR</span>
+              </div>
+              
+
+              <div class="interets">
+                <i class="fa-solid fa-plane"></i>
+                <span>VOYAGER</span>
+              </div>
+              
+
+              <div class="interets">
+                <i class="fa-solid fa-book"></i>
+                <span>lIVRES</span>
+              </div>
+
+              <div class="interets">
+                <i class="fa-solid fa-camera"></i>
+                <span>PHOTOS</span>
+              </div>
+
+              <div class="interets">
+                <!-- <i class="fa-solid fa-person-hiking"></i> -->
+                <i class="fa-solid fa-bicycle"></i>
+                <span>SPORTS</span>
+              </div>        
+
+            </div>
+
+          </div>
+        </div>
+        <button>
+          Télécharcher CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECTION COMPÉTANCES -->
+    <section class="competances" id="competances">
+      <div class="section-content">
+        <h2>Compétances</h2>
+
+        <div class="rangee">
+          <!-- Compétances Téchniques -->
+          <div class="col">
+            <h3>Compétances Téchnique</h3>
+
+            <div class="competance">
+              <span>HTML/CSS</span>
+              <div class="barre-competance">
+                <div class="progres html-css">
+                  <span>77%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competance">
+              <span>JavaScript</span>
+              <div class="barre-competance">
+                <div class="progres javascript">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competance">
+              <span>React</span>
+              <div class="barre-competance">
+                <div class="progres react">
+                  <span>30%</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="competance">
+              <span>Photoshop</span>
+              <div class="barre-competance">
+                <div class="progres photoshop">
+                  <span>78%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competance">
+              <span>Lightroom</span>
+              <div class="barre-competance">
+                <div class="progres lightroom">
+                  <span>88%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competance">
+              <span>Illustrator</span>
+              <div class="barre-competance">
+                <div class="progres ilustrator">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- Compétances Profesionelles  -->
+          <div class="col">
+            <h3>Compétances Professionnelles</h3>
+
+            <div class="competance">
+              <span>Comunication</span>
+              <div class="barre-competance">
+                <div class="progres comunication">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competance">
+              <span>Travaille en équipe</span>
+              <div class="barre-competance">
+                <div class="progres travaille-equipe">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="competance">
+              <span>Créativité</span>
+              <div class="barre-competance">
+                <div class="progres creativite">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competance">
+              <span>Dedication</span>
+              <div class="barre-competance">
+                <div class="progres dedication">
+                  <span>68%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competance">
+              <span>Ventes</span>
+              <div class="barre-competance">
+                <div class="progres ventes">
+                  <span>20%</span>
+                </div>
+              </div>
+            </div>
+
+            
+            
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION CV -->
+    <section id="cv" class="cv">
+      <div class="section-content">
+        <h2>CV</h2>
+        <div class="rangee">
+
+          <div class="col gauche">
+            <h3>FORMATION ACADÉMIQUE</h3>
+            <div class="item gauche">
+              <h4> Certification JavaScript</h4>
+              <span class="academie">Udemy</span>
+              <span class="date">2023</span>
+              <p></p>              
+              <div class="conecteurg">
+                <div class="cercleg"></div>
+              </div>
+            </div>
+
+            <div class="item gauche">
+              <h4> Certification HTML-CSS</h4>
+              <span class="academie">Ope Bootcamp</span>
+              <span class="date">2023</span>
+              <p></p>
+              <div class="conecteurg">
+                <div class="cercleg"></div>
+              </div>
+            </div>
+
+            <div class="item gauche">
+              <h4> Formation Developpeur Web Front-End</h4>
+              <span class="academie">Open Bootcamp</span>
+              <span class="date">2022 - 2023</span>
+              <p></p>              
+              <div class="conecteurg">
+                <div class="cercleg"></div>
+              </div>
+            </div>
+
+            <div class="item gauche">
+              <h4>BEP en Installations de télécommunications</h4>
+              <span class="academie">Open Bootcamp</span>
+              <span class="date">2017 - 2018</span>
+              <p></p>
+              
+              <div class="conecteurg">
+                <div class="cercleg"></div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="col droite">
+          <h3>EXPERIANCE</h3>
+
+          <div class="item droite">
+            <h4>Téchnicien TI</h4>
+            <span class="academie">EXPERTOS HELP (COL)</span>
+            <span class="date">2022</span>
+            <p></p>
+            
+            <div class="conecteurd">
+              <div class="cercled"></div>
+            </div>
+          </div>
+
+          <div class="item droite">
+            <h4>Maintenance d'infrastructure informatique et configuration de périphériques externe via telnet</h4>
+            <span class="academie">DORNA SPORT S.L</span>
+            <span class="date">2018</span>
+            <p></p>
+            
+            <div class="conecteurd">
+              <div class="cercled"></div>
+            </div>
+          </div>
+          
+      </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <h2>PORTFOLIO</h2>
+      <div class="galerie">
+
+        <div class="projet">
+          <img src="img/HorlogeNumerique.PNG" alt="">
+          <div class="overlay">
+            <h3>Horloge Digital</h3>
+            <p>Design & Programation</p>
+          </div>
+        </div>
+        
+
+        <div class="projet">
+          <img src="/img/Calculatrice.PNG" alt="">
+          <div class="overlay">
+            <h3>Design & Programation</h3>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="projet">
+          <img src="/img/ToDoList.PNG" alt="">
+          <div class="overlay">
+            <h3>Liste To-Do</h3>
+            <p>Design & Programation</p>
+          </div>
+        </div>
+
+        <div class="projet">
+          <img src="/img/GenerateurMotPassSecurise.PNG" alt="">
+          <div class="overlay">
+            <h3>Générateur de Mot de Passe Sécurisé</h3>
+            <p>Design & Programation</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="contact">
+      <div class="section-content">
+        <h2>CONTACT</h2>
+        <div class="rangee">
+          <!-- Formulaire -->
+          <div class="col">
+            <input type="text" placeholder="Nom, Prénom">
+            <input type="text" placeholder="Téléphone">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Sujet">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <button>
+              Envoyer <i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- Geolocalisation -->
+          <div class="col">
+            <img src="img/Ubicacion.PNG" alt="">
+            
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  77 RUE MARSALE, Bâgé-le-Châtel
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  0658542952
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  jean-michelconti@hotmail.com
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <a href="" id="home" class="up">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="reseaux">
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
