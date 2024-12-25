@@ -348,6 +348,26 @@ html {
   100% {width: 30%;}
 }
 
+.competances .competance .mongodb {
+  width: 0%;
+  animation: 2s mongodb forwards;
+}
+
+@keyframes mongodb {
+  0% {width: 0%;}
+  100% {width: 40%;}
+}
+
+.competances .competance .postman {
+  width: 0%;
+  animation: 2s postman forwards;
+}
+
+@keyframes mongodb {
+  0% {width: 0%;}
+  100% {width: 30%;}
+}
+
 
 .competances .competance .photoshop {
   width: 0%;
